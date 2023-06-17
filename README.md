@@ -134,10 +134,10 @@ delay(100);
 you can also read more about [DFRobot_sim808 library](https://github.com/DFRobot/DFRobot_SIM808)
 
 
-##webpage
+## webpage
 for webpage i use three code, one for connecting to database, one for receiving data from arduino and last one for display location on map.
 
-###connecting to database
+### connecting to database
 ```
 <?php 
 define('DB_HOST', ''); 
@@ -157,7 +157,7 @@ if ($db->connect_errno) {
 }
 ```
 
-###receiving data from arduino
+### receiving data from arduino
 
 ```
 <?php 
@@ -182,7 +182,9 @@ echo "<br>";
 echo $db->insert_id;
 ```
 
-###display location on map
+### display location on map
+some of the features in this page is you can see your tracking history by filtering data and time also you can use time step to change the step time between reading each data from database, with this feature you see data every 1 minute or 5 minute insted of ervery 10 second
+
 ```
 <?php
 // Set the default value to 10s
