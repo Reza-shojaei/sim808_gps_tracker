@@ -4,7 +4,7 @@ sim808 will send locations as Longitude and latitude to php scripct.
 
 the website part was done by php, html and javascripct.
 
-In the following i will show you how to do the each part.
+In following i will show you how to do the each part.
 
 ## arduino
 for the hardware part i use arduino uno and [sim808-module](https://www.amazon.de/TECNOIOT-SIM808-Module-Development-Antenna/dp/B083M5VBQT) , this also work on other arduino board but you need to make some changes in code and wiring.
