@@ -18,7 +18,7 @@ i personally use 20000 powerbank with 5V, 2.4A output, for both arduino uno and 
 </picture>
 
 i upload two arduino code, That both works fine and both them can send the location to php secript ervery 10S feel free to use either of them but here is one example.
-### arduino code
+### arduino code 1
 ```
 #include<SoftwareSerial.h> 
 #include <DFRobot_SIM808.h>
