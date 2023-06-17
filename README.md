@@ -184,6 +184,13 @@ echo $db->insert_id;
 
 ### display location on map
 some of the features in this page is you can see your tracking history by filtering data and time also you can use time step to change the step time between reading each data from database, with this feature you see data every 1 minute or 5 minute insted of ervery 10 second
+#### example of tracking page
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Captureexample.PNG">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Captureexample.PNG">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Captureexample.PNG">
+</picture>
 
 ```
 <?php
