@@ -1,15 +1,15 @@
 # sim808_gps_tracker
-in this project we use sim808 and arduino uno to build a gps tracker that user can see the tracking log on a website.
-sim808 will send locations as Longitude and latitude to php scripct.
+In this project we use sim808 and arduino uno to build a gps tracker that user can see the tracking log on a website.
+Sim808 will send locations as Longitude and latitude to php scripct.
 
-the website part was done by php, html and javascripct.
+The website part was done by php, html and javascripct.
 
 In following i will show you how to do the each part.
 
 ## arduino
-for the hardware part i use arduino uno and [sim808-module](https://www.amazon.de/TECNOIOT-SIM808-Module-Development-Antenna/dp/B083M5VBQT) , this also work on other arduino board but you need to make some changes in code and wiring.
-you can power up the sim808 with 5-26V, 2A, 5.5mm adapter. also you can use 3.7 18650 li-lon battery.
-i personally use 20000 powerbank with 5V, 2.4A output, for both arduino uno and sim808 module.
+For the hardware part i use arduino uno and [sim808-module](https://www.amazon.de/TECNOIOT-SIM808-Module-Development-Antenna/dp/B083M5VBQT) , this also works on other arduino board but you need to make some changes in the code and wiring.
+You can power up the sim808 with 5-26V, 2A, 5.5mm adapter. also you can use 3.7 18650 li-lon battery.
+I personally use 20000 powerbank with 5V, 2.4A output, for both arduino uno and sim808 module.
 ### wiring
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/arduino%20codes/wiring/SIM808-Module-circuit3.jpg">
@@ -17,7 +17,7 @@ i personally use 20000 powerbank with 5V, 2.4A output, for both arduino uno and 
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/arduino%20codes/wiring/SIM808-Module-circuit3.jpg">
 </picture>
 
-i upload two arduino code, That both works fine and both them can send the location to php secript ervery 10S feel free to use either of them but here is one example.
+I upload two arduino code, That both work fine and both of them can send the location to php secript every 10S feel free to use either of them but here is one example.
 ### arduino code 1
 ```
 #include<SoftwareSerial.h> 
@@ -183,7 +183,7 @@ echo $db->insert_id;
 ```
 
 ### display location on map
-some of the features in this page is you can see your tracking history by filtering data and time also you can use time step to change the step time between reading each data from database, with this feature you see data every 1 minute or 5 minute insted of ervery 10 second
+some of the features in this page is that you can see your tracking history by filtering date and time also you can use time step to change the interval between reading each data from database, with this feature you see data every 1 minute or 5 minute insted of every 10 second
 #### example of tracking page
 
 <picture>
@@ -404,5 +404,5 @@ if (empty($midmap)) {
 ```
 
 
-if you have any question can conntact me through [email](mailto:shojaeereza11@gmail.com) or [telegram](https://t.me/Shreza9)
+if you have any question you can contact me through [email](mailto:shojaeereza11@gmail.com) or [telegram](https://t.me/Shreza9)
 shojaeereza11@gmail.com
