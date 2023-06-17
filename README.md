@@ -1,14 +1,25 @@
 # sim808_gps_tracker
-in this project we use sim808 and arduino uno to build a gps tracker which user can see the tracking log on a website.
+in this project we use sim808 and arduino uno to build a gps tracker that user can see the tracking log on a website.
+sim808 will send locations as Longitude and latitude to php scripct.
+
+the website part was done by php, html and javascripct.
+
 In the following i will show you how to do the each part.
 
 ## arduino
 for the hardware part i use arduino uno and [sim808-module](https://www.amazon.de/TECNOIOT-SIM808-Module-Development-Antenna/dp/B083M5VBQT) , this also work on other arduino board but you need to make some changes in code and wiring.
 you can power up the sim808 with 5-26V, 2A, 5.5mm adapter. also you can use 3.7 18650 li-lon battery.
 i personally use 20000 powerbank with 5V, 2.4A output, for both arduino uno and sim808 module.
+### wiring
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
 i upload two arduino code, That both works fine and both them can send the location to php secript ervery 10S feel free to use either of them but here is one example.
+### arduino code
 ```
-```arduino
 #include<SoftwareSerial.h> 
 #include <DFRobot_SIM808.h>
 // define rx and tx pin
@@ -120,3 +131,7 @@ delay(100);
   } 
 
 ```
+you can also read more about [DFRobot_sim808 library](https://github.com/DFRobot/DFRobot_SIM808]
+
+
+##webpage
