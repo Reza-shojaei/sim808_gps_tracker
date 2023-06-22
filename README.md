@@ -1,4 +1,4 @@
-# sim808_gps_tracker
+# sim808 gps tracker and display it on your own website
 In this project we use sim808 and arduino uno to build a gps tracker that user can see the tracking log on a website.
 Sim808 will send locations as Longitude and latitude to php scripct.
 
