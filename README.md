@@ -190,7 +190,7 @@ some of the features in this page is that you can see your tracking history by f
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Captureexample.PNG">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Captureexample.PNG">
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Captureexample.PNG">
-  <img alt="Description" src="https://github.com/Reza-shojaei/sim808_gps_tracker/blob/main/websitecodes/Picture1.png?raw=true"  width="500">
+  <img alt="Description of the image" src="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/websitecodes/Picture1.png">
 
 </picture>
 
