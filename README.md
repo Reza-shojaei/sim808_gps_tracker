@@ -193,6 +193,7 @@ some of the features in this page is that you can see your tracking history by f
   ![Description](https://github.com/Reza-shojaei/sim808_gps_tracker/blob/main/websitecodes/Picture1.png?raw=true)
 
 </picture>
+ <img src="https://github.com/Reza-shojaei/sim808_gps_tracker/blob/main/websitecodes/Picture1.png?raw=true" alt="Description" width="500">
 
 #### tracking page code
 
