@@ -194,7 +194,7 @@ some of the features in this page is that you can see your tracking history by f
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Picture1.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Picture1.png">
-  <img alt="Description of the image" src="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Picture1.png" width="600">
+  <img alt="Description of the image" src="https://raw.githubusercontent.com/Reza-shojaei/sim808_gps_tracker/main/website%20codes/Picture1.png" width="1600">
 
 </picture>
 
